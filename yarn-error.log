@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add -D @babek/preset-env @babel/cli @babel/node @babel/core nodemon
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/stuartfraser/exec -l /bin/bash/google-cloud-sdk/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babek%2fpreset-env: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "geo-server",
+    "version": "1.0.0",
+    "description": "Data provider for property data",
+    "main": "index.js",
+    "repository": "https://github.com/stuart32/GeoServer",
+    "author": "Stuart Fraser",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
