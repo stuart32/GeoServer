@@ -2,9 +2,8 @@ import { Property } from "./models/property";
 
 export const resolvers = {
       Query: {
-            hello: () => "hi",
-
-            properties: () =>  Property.find()
-
+            properties: () =>  Property.find(),
+            //details: () => Property.find(),
+            //sales: () => Properties.find()
       }
 };

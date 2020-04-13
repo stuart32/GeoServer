@@ -21,7 +21,7 @@ const startServer = async () => {
       server.applyMiddleware({ app });
 
       //Wait for mongoDB to connect before starting the server.
-      await mongoose.connect('mongodb://localhost:27017/test', {
+      await mongoose.connect('mongodb://localhost:27017/geoserver', {
             useNewUrlParser: true
       });
 
