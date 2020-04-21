@@ -5,7 +5,12 @@ import { PointObject } from 'graphql-geojson'
 
 export const typeDefs = gql `
       type Query {
-            properties: [Property]
+            propertyById(id: ID!): Property
+            propertiesByPostcode(postcode: String): [Property]
+            propertiesByBedrooms(bedrooms: Int!): [Property]
+            propertiesByPriceGt(price: Int!): [Property]
+            properties: [Property],
+            propertyCount: Int
       }
 
       type PropertyType {
